@@ -1,0 +1,12 @@
+[package]
+name = "lcidgen"
+version = "0.1.0"
+authors = ["Brendan Molloy <brendan@bbqsrc.net>"]
+
+[dependencies]
+json = "*"
+
+[dependencies.winapi]
+git = "https://github.com/bbqsrc/winapi-rs"
+branch = "move-kernel32-nls-funcs"
+features = ["everything"]
